@@ -1,0 +1,27 @@
+{
+  "name": "post-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "webpack": "./node_modules/.bin/webpack --progress --profile --colors --display-error-details --display-cached",
+    "dev": "./node_modules/.bin/webpack --progress --colors --watch",
+    "build": "prod build command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marchock/postCss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marchock/postCss/issues"
+  },
+  "homepage": "https://github.com/marchock/postCss#readme",
+  "dependencies": {
+    "webpack": "^1.13.1",
+    "postcss-loader": "^0.9.1"
+  }
+}
