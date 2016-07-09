@@ -20,11 +20,11 @@
     largedesktop: 1280px;
 }
 
-@custom-media --mq-from-mobile (width >= 320px);
+/*@custom-media --mq-from-mobile (width >= 320px);
 @custom-media --mq-from-tablet (width >= 481px);
 @custom-media --mq-from-smalldesktop (width >= 769px);
 @custom-media --mq-from-desktop (width >= 1024px);
-@custom-media --mq-from-largedesktop (width >= 1280px);
+@custom-media --mq-from-largedesktop (width >= 1280px);*/
 
 
 /**
